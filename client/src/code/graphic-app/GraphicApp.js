@@ -1,6 +1,7 @@
 import { Scene } from './dependencies/three.module.js'
 import { Renderer } from './utils/Renderer.js'
 import { ModelLoader } from './utils/ModelLoader.js'
+import { TextDisplayer } from './utils/TextDisplayer.js'
 import { ControlledSat } from './satellites/ControlledSat.js'
 import { Composer } from './utils/Composer.js'
 import { PlanetarySystem } from './system/PlanetarySystem.js'
@@ -21,7 +22,7 @@ const REMOVE_SAT = 'satDisconnection'
 /*  Class: GraphicApplication
     @authors: Cédric ABDELBAKI, Yanis KOUIDRI
     @contributors:
-    @version: 0.1
+    @version: 0.2
 */
 export class GraphicApp {
     /*  Calls methods to run the application, handle network
@@ -39,6 +40,7 @@ export class GraphicApp {
         this.scene = new Scene()
         this.renderer = new Renderer()
         this.loader = new ModelLoader()
+        this.displayer = new TextDisplayer()
         this.satellite = new ControlledSat(
             this.loader,
             this.renderer.domElement,
@@ -97,6 +99,7 @@ export class GraphicApp {
                         this.satellites[id] = new OtherClientSat(
                             this.loader,
                             id,
+                            this.displayer,
                             this.scene
                         )
                     // Updates values for the client satellite if it exists.
