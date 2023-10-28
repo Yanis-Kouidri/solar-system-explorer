@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Sun",
+        "type": "Star",
+        "radius": 30,
+        "position": {"x": 0, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": null,
+        "orbitSpeed": null,
+        "texturePath": "/src/assets/graphic-app/textures/8k_sun.jpg"
+    },
+    {
+        "name": "Mercure",
+        "type": "PlanetOrMoon",
+        "radius": 0.383,
+        "position": {"x": 80, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.00008,
+        "texturePath": "/src/assets/graphic-app/textures/8k_mercury.jpg"
+    },
+    {
+        "name": "Venus",
+        "type": "PlanetOrMoon",
+        "radius": 0.951,
+        "position": {"x": 160, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.00007,
+        "texturePath": "/src/assets/graphic-app/textures/8k_venus.jpg"
+    },
+    {
+        "name": "Earth",
+        "type": "PlanetOrMoon",
+        "radius": 1,
+        "position": {"x": 240, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.00006,
+        "texturePath": "/src/assets/graphic-app/textures/8k_earth.jpg"
+    },
+    {
+        "name": "Mars",
+        "type": "PlanetOrMoon",
+        "radius": 0.532,
+        "position": {"x": 320, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.000005,
+        "texturePath": "/src/assets/graphic-app/textures/8k_mars.jpg"
+    },
+    {
+        "name": "Jupiter",
+        "type": "PlanetOrMoon",
+        "radius": 11.21,
+        "position": {"x": 420, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.000004,
+        "texturePath": "/src/assets/graphic-app/textures/8k_jupiter.jpg"
+    },
+    {
+        "name": "Saturn",
+        "type": "PlanetOrMoon",
+        "radius": 9.45,
+        "position": {"x": 520, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.000003,
+        "texturePath": "/src/assets/graphic-app/textures/8k_saturn.jpg"
+    },
+    {
+        "name": "Uranus",
+        "type": "PlanetOrMoon",
+        "radius": 4.01,
+        "position": {"x": 620, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.000002,
+        "texturePath": "/src/assets/graphic-app/textures/2k_uranus.jpg"
+    },
+    {
+        "name": "Neptune",
+        "type": "PlanetOrMoon",
+        "radius": 3.88,
+        "position": {"x": 720, "y": 0, "z":0},
+        "rotation": {"x": 0, "y": 0, "z":0},
+        "rotationSpeed": 0.1,
+        "orbitSpeed": 0.000001,
+        "texturePath": "/src/assets/graphic-app/textures/2k_neptune.jpg"
+    }
+]
