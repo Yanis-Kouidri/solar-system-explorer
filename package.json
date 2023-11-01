@@ -2,7 +2,7 @@
   "name": "solar-system-explorer",
   "version": "1.0.0",
   "description": "An explorer of system solar",
-  "main": "sse/server/graphic-app/GraphicAppServer.js",
+  "main": "server/graphic-app/GraphicAppServer.js",
   "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
@@ -10,19 +10,19 @@
     "node": ">= 14.0.0",
     "npm": ">= 6.0.0"
   },
-  "homepage": "",
+  "homepage": "http://kouidri.fr:3000",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Yanis-Kouidri/solar-system-explorer"
   },
   "bugs": "",
-  "keywords": [],
+  "keywords": ["Space", "Solar-system"],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Cedric Abdelbaki",
+    "email": "cedric@abdelbaki.fr",
+    "url": "https://n7.abdelbaki.fr/"
   },
-  "contributors": [],
+  "contributors": ["Yanis Kouidri"],
   "scripts": {
     "dev": "",
     "test": ""
