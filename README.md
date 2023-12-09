@@ -17,7 +17,7 @@ to explore the solar system alongside other explorers. A sidebar on the left sid
 
 - `npm init es6`
 - `npm install express socket.io`
-- `node server/graphic-app/App.js`
+- `node server/App.js`
 - localhost:3000 on a web browser
 
 ## CONTROLS :
