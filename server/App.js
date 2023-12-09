@@ -21,12 +21,12 @@ const DATA_UPDATE = 'updateTransmission'
 const DISCONNECTION_SIG = 'disconnect'
 const REMOVE_SAT = 'satDisconnection'
 
-/*  Class: GraphicAppServer
+/*  Class: App
     @authors: Cédric ABDELBAKI, Yanis KOUIDRI
     @contributors:
     @version: 0.1
 */
-class GraphicAppServer {    
+class App {    
     /*  Calls methods to create the server and handle its interactions.
     */
     constructor() {
@@ -104,4 +104,4 @@ class GraphicAppServer {
     }
 }
 
-new GraphicAppServer()
+new App()

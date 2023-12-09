@@ -27,9 +27,9 @@ export class GraphicApp {
     /*  Calls methods to run the application, handle network
         interactions and animations.
     */
-    constructor() {
+    constructor(socket) {
         this.initialize()
-        this.handleNetworkInteractions()
+        this.handleNetworkInteractions(socket)
         this.animate()
     }
 
@@ -57,8 +57,8 @@ export class GraphicApp {
 
     /*  Handles client-server interactions.
     */
-    handleNetworkInteractions() {
-        this.socket = io()
+    handleNetworkInteractions(socket) {
+        this.socket = socket
         this.satellites = {}
         this.handleConnection()
         this.handleUpdates()
@@ -165,5 +165,3 @@ export class GraphicApp {
         animate()
     }
 }
-
-new GraphicApp()
